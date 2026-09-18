@@ -104,7 +104,7 @@ ____________________________________________________
 |---|---|---|---|
 | Gabriel Alves (Professor)| Avaliação acadêmica do projeto e da metodologia |Média| Orientação, validação de requisitos e correções | 
 |---|---|---|---|
-| | | Baixa / Média / Alta | |
+| OpenAI (provedora do modelo GPT-4o-mini)| Fornecer o serviço de geração dos relatórios de IA |Média| 	Integração via API paga por uso (dependência técnica externa) | 
 
 ## 5. Objetivos do projeto
 

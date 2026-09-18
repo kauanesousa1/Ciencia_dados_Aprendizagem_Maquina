@@ -115,7 +115,7 @@ Defina de três a cinco objetivos mensuráveis e compatíveis com o prazo do pro
 
 | Nº | Objetivo específico | Evidência de conclusão |
 |---:|---|---|
-| 1 | | | 1	Promover a educação financeira do usuário	Módulo educacional (cursos, módulos, lições e conquistas) implementado e disponível no catálogo de cursos.
+| 1 | Promover a educação financeira do usuário |Módulo educacional (cursos, módulos, lições e conquistas) implementado e disponível no catálogo de cursos | 
 
 | 2 | | | 2	Integrar o módulo educacional ao acompanhamento financeiro, fomentando aprendizado contínuo	Progresso do usuário (UserLessonProgress) e XP/gamificação vinculados ao uso da plataforma.
 

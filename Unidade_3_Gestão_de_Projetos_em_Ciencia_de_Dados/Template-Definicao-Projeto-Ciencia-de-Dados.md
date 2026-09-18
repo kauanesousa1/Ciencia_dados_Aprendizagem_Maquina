@@ -10,7 +10,7 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto do projeto	MVC Finance: Aplicativo Web de Gestão Financeira Pessoal com Módulo de Relatórios por Inteligência Artificial| Ciência da Computação e Sistemas de Informação — Unidade III: Gestão de Projetos (Ciência de Dados)| 
+| Título provisório do projeto do projeto |MVC Finance: Aplicativo Web de Gestão Financeira Pessoal com Módulo de Relatórios por Inteligência Artificial |  
 | Curso / disciplina |Ciência da Computação e Sistemas de Informação — Unidade III: Gestão de Projetos (Ciência de Dados) | 
 | Turma |Noite |  
 | Equipe | 	Equipe MVC Finance — Kauane Braga, Isabella Ana e Jhonathan Moura |  

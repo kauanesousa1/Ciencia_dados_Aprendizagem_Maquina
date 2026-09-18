@@ -102,7 +102,7 @@ ____________________________________________________
 |---|---|---|---|
 | Equipe MVC Finance (Isabella, Jhonathan e Kauane)| Concluir o projeto/TCC e evoluir o produto |Alta| Desenvolvimento, modelagem de dados, documentação e apresentação | 
 |---|---|---|---|
-| | | Baixa / Média / Alta | |
+| Gabriel Alves (Professor)| Avaliação acadêmica do projeto e da metodologia |Média| Orientação, validação de requisitos e correções | 
 |---|---|---|---|
 | | | Baixa / Média / Alta | |
 

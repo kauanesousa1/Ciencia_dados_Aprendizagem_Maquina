@@ -14,7 +14,7 @@
 | Curso / disciplina |Ciência da Computação e Sistemas de Informação — Unidade III: Gestão de Projetos (Ciência de Dados) | 
 | Turma |Noite |  
 | Equipe | 	Equipe MVC Finance — Kauane Braga, Isabella Ana e Jhonathan Moura |  
-| Integrantes e funções iniciais | Isabella Ana Dutra de Sousa (matrícula 35719117) documentação dados/IA; Jhonathan de Moura Santos (matrícula 32813589) front-end, back-end;  Kauane Braga dos Santos Silva de Sousa (matrícula 36358959) documentação e dados/IA.| 
+| Integrantes e funções iniciais |  Kauane Braga dos Santos Silva de Sousa (matrícula 36358959) documentação e dados/IA.Isabella Ana Dutra de Sousa (matrícula 35719117) documentação dados/IA; Jhonathan de Moura Santos (matrícula 32813589) front-end, back-end;  Isabella Ana Dutra de Sousa (matrícula 35719117) documentação dados/IA;| 
 | Professor(a) | Gabriel Alves|
 | Data de elaboração | 16/09/2026| 
 | Versão do documento |v1.0  | 

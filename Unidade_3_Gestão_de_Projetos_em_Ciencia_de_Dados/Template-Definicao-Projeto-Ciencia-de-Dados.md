@@ -137,7 +137,7 @@ As perguntas de negócio orientam a coleta, a análise e a comunicação dos res
 
 | Nº | Pergunta de negócio | Decisão apoiada | Dados necessários | Análise ou indicador possível |
 |---:|---|---|---|---|
-| 1 |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário? | Priorizar quais categorias destacar no relatório de IA e em alertas| Agregação e ranking de despesas por categoria | Transações do mês (valor, categoria, tipo, data) | |Agregação e ranking de despesas por categoria|
+| 1 |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário? | Priorizar quais categorias destacar no relatório de IA e em alertas| | Transações do mês (valor, categoria, tipo, data)|  Agregação e ranking de despesas por categoria | Transações do mês (valor, categoria, tipo, data) | |Agregação e ranking de despesas por categoria|
 
 | 2 | | | | |
 

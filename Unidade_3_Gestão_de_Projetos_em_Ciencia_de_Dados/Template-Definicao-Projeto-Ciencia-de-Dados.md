@@ -85,7 +85,7 @@ ____________________________________________________
 
 | Aspecto | Descrição |
 |---|---|
-| Quem são os usuários ou beneficiários? | | Pessoas físicas no Brasil que buscam controlar receitas e despesas pessoais, incluindo usuários endividados ou com baixo letramento financeiro.
+| Quem são os usuários ou beneficiários? | Pessoas físicas no Brasil que buscam controlar receitas e despesas pessoais, incluindo usuários endividados ou com baixo letramento financeiro | 
 
 | Quais necessidades possuem? | | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas.
 

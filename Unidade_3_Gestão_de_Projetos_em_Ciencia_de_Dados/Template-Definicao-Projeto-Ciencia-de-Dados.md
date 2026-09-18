@@ -261,7 +261,7 @@ Defina como a equipe saberá se o projeto alcançou seus objetivos.
 |---|---|---|---|---|
 | 1. Definição:| Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classes| Equipe MVC Finance| ⚠ a definir| —|
 
-| 2. Obtenção dos dados |Implementação de cadastro/autenticação e registro de transações pelos usuários |Equipe MVC Finance |⚠ a definir | Depende do módulo de autenticação|
+| 2. Obtenção dos dados Implementação de cadastro/autenticação e registro de transações pelos usuários ||Equipe MVC Finance |⚠ a definir | Depende do módulo de autenticação|
 
 | 3. Preparação dos dados Formatação das transações (DATA-VALOR-TIPO-CATEGORIA) para envio à API| Equipe MVC Finance| a definir| Depende do modelo de dados (entidade Transaction)| |
 | 4. Análise / modelagem | | | | |

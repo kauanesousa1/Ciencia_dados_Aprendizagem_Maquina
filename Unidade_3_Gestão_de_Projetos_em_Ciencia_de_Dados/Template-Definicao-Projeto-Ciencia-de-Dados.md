@@ -100,8 +100,10 @@ ____________________________________________________
 |---|---|---|---|
 | Usuários finais (Plano Gratuito e Plano Premium)| Alta |Controlar finanças pessoais e obter insights sobre os próprios gastos| Alta | 
 |---|---|---|---|
-| Equipe MVC Finance (Kauane, Isabella e Jhonathan) | Concluir o projeto/TCC e evoluir o produto| | Alta | |Desenvolvimento, modelagem de dados, documentação e apresentação| 
+| Equipe MVC Finance (Kauane, Isabella e Jhonathan)| Concluir o projeto/TCC e evoluir o produto| Alta | |Desenvolvimento, modelagem de dados, documentação e apresentação| 
+|---|---|---|---|
 | | | Baixa / Média / Alta | |
+|---|---|---|---|
 | | | Baixa / Média / Alta | |
 
 ## 5. Objetivos do projeto

@@ -303,8 +303,8 @@ Antes da entrega, confirme:
 
 | Responsável | Validação / observação | Data |
 |---|---|---|
-| Representante da equipe Representante da equipe| 	 a preencher pela equipe no momento da entrega| |a definir
-| Professor(a) / orientador(a) Gabriel Alves| a preencher| a definir|
+| Representante da equipe Representante da equipe| a preencher pela equipe no momento da entrega| |a definir
+| Professor(a) / orientador(a) Gabriel Alves| a preencher| a definir |
 
 ### Ajustes solicitados após a apresentação inicial
 

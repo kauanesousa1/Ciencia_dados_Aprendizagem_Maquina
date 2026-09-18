@@ -93,18 +93,15 @@ ____________________________________________________
 |---|---|
 | Que decisão ou ação poderão tomar com os resultados? |  Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro.|
 
+
 ### 4.2 Partes interessadas
 
 | Parte interessada | Interesse no projeto | Influência | Forma de envolvimento |
-|Usuários finais (Plano Gratuito e Plano Premium)|Controlar finanças pessoais e obter insights sobre os próprios gastos| Alta| Uso diário da plataforma; geração de dados de transações; feedback/avaliações | | 
-| | | Baixa / Média / Alta | | 
-|Equipe MVC Finance (Isabella, Jhonathan e Kauane)|Concluir o projeto/TCC e evoluir o produto| Alta| |Desenvolvimento, modelagem de dados, documentação e apresentação|
-
-| | | Baixa / Média / Alta | 
-| Gabriel Alves (Professor)|Gabriel Alves (Professor)|---|---|
-| | | Baixa / Média / Alta | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro|
 |---|---|---|---|
-| | | Baixa / Média / Alta | Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro|  
+| | | Baixa / Média / Alta | |
+| Usuários finais (Plano Gratuito e Plano Premium)| |Controlar finanças pessoais e obter insights sobre os próprios gastos| Alta | Uso diário da plataforma; geração de dados de transações; feedback/avaliações | 
+| | | Baixa / Média / Alta | |
+| | | Baixa / Média / Alta | |
 
 ## 5. Objetivos do projeto
 

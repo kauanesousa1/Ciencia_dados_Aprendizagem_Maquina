@@ -289,22 +289,22 @@ Defina como a equipe saberá se o projeto alcançou seus objetivos.
 
 Antes da entrega, confirme:
 
-- [ ] O problema é real, relevante e delimitado.
-- [ ] O público-alvo e as partes interessadas estão identificados.
-- [ ] O objetivo geral e os objetivos específicos são coerentes.
-- [ ] As perguntas de negócio orientam decisões concretas.
-- [ ] Há dados potencialmente disponíveis para responder às perguntas.
-- [ ] O escopo é compatível com o prazo e os recursos.
-- [ ] Os critérios de sucesso são mensuráveis.
-- [ ] Riscos, privacidade, ética e segurança foram considerados.
-- [ ] Funções e responsabilidades foram distribuídas.
+- [ x ] O problema é real, relevante e delimitado.
+- [ x ] O público-alvo e as partes interessadas estão identificados.
+- [ x ] O objetivo geral e os objetivos específicos são coerentes.
+- [ x ] As perguntas de negócio orientam decisões concretas.
+- [ x ] Há dados potencialmente disponíveis para responder às perguntas.
+- [   ] O escopo é compatível com o prazo e os recursos.
+- [   ] Os critérios de sucesso são mensuráveis.
+- [   ] Riscos, privacidade, ética e segurança foram considerados.
+- [   ] Funções e responsabilidades foram distribuídas.
 
 ## 16. Aprovação e registro de ajustes
 
 | Responsável | Validação / observação | Data |
 |---|---|---|
-| Representante da equipe | | |
-| Professor(a) / orientador(a) | | |
+| Representante da equipe Representante da equipe| 	 a preencher pela equipe no momento da entrega| |a definir
+| Professor(a) / orientador(a) Gabriel Alves| a preencher| a definir|
 
 ### Ajustes solicitados após a apresentação inicial
 

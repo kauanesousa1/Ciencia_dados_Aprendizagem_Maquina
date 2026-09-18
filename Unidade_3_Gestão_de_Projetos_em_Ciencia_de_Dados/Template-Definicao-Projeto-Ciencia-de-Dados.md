@@ -137,15 +137,11 @@ As perguntas de negócio orientam a coleta, a análise e a comunicação dos res
 
 | Nº | Pergunta de negócio | Decisão apoiada | Dados necessários | Análise ou indicador possível |
 |---:|---|---|---|---|
-| 1 |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário? | Priorizar quais categorias destacar no relatório de IA e em alertas|Transações do mês (valor, categoria, tipo, data)|  |Agregação e ranking de despesas por categoria | Transações do mês (valor, categoria, tipo, data) | | Agregação e ranking de despesas por categoria|
-
-| 2 | | | | |
-
-| 3 | | | | |3	Existe relação entre o engajamento no módulo educacional (XP, cursos concluídos) e mudanças no padrão de gastos?	Priorizar investimento em gamificação/educação financeira	totalXp, UserLessonProgress, UserAchievement, histórico de Transaction	Correlação entre XP acumulado e evolução do saldo/despesas ao longo dos meses.
-
-| 4 | | | | |4	Em que ponto o limite de 10 operações/mês do Plano Gratuito se torna uma barreira de uso?	Ajustar limites do plano gratuito e a estratégia de conversão para o Plano Premium	Contagem de registros de Transaction por usuário e por mês; campo premium	Distribuição de frequência de uso por plano (Gratuito x Premium).
-
-| 5 | | | | | 5	Quais categorias e métodos de pagamento são mais recorrentes entre usuários com alto volume de despesas?	Orientar conteúdo educativo e alertas personalizados por perfil de usuário	idCategoria, idMetodoPagamento, valor das transações	Segmentação de usuários por padrão de consumo
+| 1 |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário? |Priorizar quais categorias destacar no relatório de IA e em alertas |Transações do mês (valor, categoria, tipo, data) |Agregação e ranking de despesas por categoria |
+| 2 |O relatório gerado pela IA a partir das transações do mês reflete de forma fiel as tendências reais de gasto do usuário? |Ajustar o prompt e o formato de dados enviados ao GPT-4o-mini (RN-IA03) |Transações formatadas como DATA-VALOR-TIPO-CATEGORIA do mês selecionado |Comparação entre o relatório gerado e uma análise estatística direta das mesmas transações |
+| 3 |	Existe relação entre o engajamento no módulo educacional (XP, cursos concluídos) e mudanças no padrão de gastos? |Priorizar investimento em gamificação/educação financeira |totalXp, UserLessonProgress, UserAchievement, histórico de Transaction |Correlação entre XP acumulado e evolução do saldo/despesas ao longo dos meses |
+| 4 |	Em que ponto o limite de 10 operações/mês do Plano Gratuito se torna uma barreira de uso? |Ajustar limites do plano gratuito e a estratégia de conversão para o Plano Premium |Contagem de registros de Transaction por usuário e por mês; campo premium |Distribuição de frequência de uso por plano (Gratuito x Premium) |
+| 5 | Quais categorias e métodos de pagamento são mais recorrentes entre usuários com alto volume de despesas? |Orientar conteúdo educativo e alertas personalizados por perfil de usuário |idCategoria, idMetodoPagamento, valor das transações |Segmentação de usuários por padrão de consumo |
 
 ## 7. Hipóteses iniciais
 
@@ -153,21 +149,17 @@ Registre suposições que serão investigadas, sem apresentá-las como conclusõ
 
 | Hipótese | Como poderá ser testada? | Resultado que a refutaria? |
 |---|---|---|
-| H1. | | |H1. Usuários que utilizam o relatório de IA mensalmente tendem a reduzir despesas em categorias não essenciais nos meses seguintes.	Comparar despesas por categoria antes e depois do uso do relatório de IA, por usuário.	Ausência de redução (ou aumento) de despesas nos meses seguintes ao uso do relatório.
-
-| H2. | | |H2. O limite de 10 operações/mês do Plano Gratuito é suficiente apenas para uma parcela dos usuários, impulsionando a conversão ao Plano Premium.	Medir o percentual de usuários do Plano Gratuito que atingem o limite mensal de operações.	Baixa proporção de usuários atingindo o limite, indicando que essa barreira não influencia a conversão.
-
-| H3. | | | H3. Usuários com maior XP/progresso no módulo educacional apresentam padrões de gasto mais estáveis (menor variação mês a mês).	Correlacionar totalXp e cursos concluídos com o desvio-padrão das despesas mensais do usuário.	Ausência de correlação entre XP/progresso educacional e estabilidade financeira.
+| H1. Usuários que utilizam o relatório de IA mensalmente tendem a reduzir despesas em categorias não essenciais nos meses seguintes.| Comparar despesas por categoria antes e depois do uso do relatório de IA, por usuário. |Ausência de redução (ou aumento) de despesas nos meses seguintes ao uso do relatório.| 
+| H2. O limite de 10 operações/mês do Plano Gratuito é suficiente apenas para uma parcela dos usuários, impulsionando a conversão ao Plano Premium.|Medir o percentual de usuários do Plano Gratuito que atingem o limite mensal de operações. |Baixa proporção de usuários atingindo o limite, indicando que essa barreira não influencia a conversão.| 
+| H3. Usuários com maior XP/progresso no módulo educacional apresentam padrões de gasto mais estáveis (menor variação mês a mês).|Correlacionar totalXp e cursos concluídos com o desvio-padrão das despesas mensais do usuário. |Ausência de correlação entre XP/progresso educacional e estabilidade financeira.| 
 
 ## 8. Dados necessários e viabilidade
 
 | Conjunto ou fonte de dados | Variáveis principais | Formato | Acesso / responsável | Qualidade esperada |
 |---|---|---|---|---|
-| | | | | |Transaction (operações financeiras)	valor, data, idTipoOperacao, idCategoria, idMetodoPagamento, usuarioId	Estruturado (PostgreSQL via Prisma ORM)	Banco de dados da aplicação (Neon DB) / equipe de desenvolvimento	Alta — inserida diretamente pelo usuário, mas sujeita a erro de categorização manual,
-
-| | | | | | User (usuário)	idUsuario, premium, totalXp, idCursoAtual, idModuloAtual, idLicaoAtual	Estruturado (PostgreSQL)	Banco de dados da aplicação / equipe de desenvolvimento	Alta, porém sensível (LGPD) — requer anonimização para qualquer análise agregada.
-
-| | | | | | Módulo educacional (Course, Module, Lesson, UserLessonProgress, UserAchievement)	progresso do usuário, cursos/módulos/lições concluídos, conquistas	Estruturado (PostgreSQL)	Banco de dados da aplicação / equipe de desenvolvimento	Alta, mas dependente da efetiva adoção do módulo educacional pelos usuários.
+|Transaction (operações financeiras)  |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário?Transaction (operações financeiras)|valor, data, idTipoOperacao, idCategoria, idMetodoPagamento, usuarioId |Estruturado (PostgreSQL via Prisma ORM) |Banco de dados da aplicação (Neon DB) / equipe de desenvolvimento | |Alta — inserida diretamente pelo usuário, mas sujeita a erro de categorização manual |
+|User (usuário)  |	idUsuario, premium, totalXp, idCursoAtual, idModuloAtual, idLicaoAtual|Estruturado (PostgreSQL) |Banco de dados da aplicação / equipe de desenvolvimento | |Banco de dados da aplicação / equipe de desenvolvimento |
+|Módulo educacional (Course, Module, Lesson, UserLessonProgress, UserAchievement)  |	progresso do usuário, cursos/módulos/lições concluídos, conquistas|Estruturado (PostgreSQL) |Banco de dados da aplicação / equipe de desenvolvimento | |Alta, mas dependente da efetiva adoção do módulo educacional pelos usuários |
 
 ### 8.1 Avaliação inicial dos dados
 
@@ -198,15 +190,11 @@ ________________________________________________________________________________
 
 | Dentro do escopo | Fora do escopo |
 |---|---|
-| | |Registro, edição e exclusão de transações financeiras (receita/despesa/investimento),	Integração bancária automática (open finance) — não mencionada no TCC.
-
-| | |Dashboard financeiro com filtro por mês e gráficos de evolução,	Aplicativo mobile nativo — a solução é uma plataforma web (SaaS).
-
-| | | Geração de relatório de Inteligência Artificial (GPT-4o-mini) para usuários do Plano Premium,	Modelos preditivos de Machine Learning desenvolvidos pela própria equipe.
-
-| | | Módulo educacional gamificado (cursos, módulos, lições, conquistas, XP). Análises estatísticas avançadas/painéis de Ciência de Dados além do relatório individual em Markdown.
-
-| | |Modelo de negócio freemium com pagamento via Stripe (Plano Básico/Gratuito e Plano Pro/Premium).
+| Registro, edição e exclusão de transações financeiras (receita/despesa/investimento) | Integração bancária automática (open finance) — não mencionada no TCC| 
+| Dashboard financeiro com filtro por mês e gráficos de evolução | Aplicativo mobile nativo — a solução é uma plataforma web (SaaS)| 
+| Geração de relatório de Inteligência Artificial (GPT-4o-mini) para usuários do Plano Premium | Modelos preditivos de Machine Learning desenvolvidos pela própria equipe| 
+| Módulo educacional gamificado (cursos, módulos, lições, conquistas, XP) | Análises estatísticas avançadas/painéis de Ciência de Dados além do relatório individual em Markdown| 
+| Modelo de negócio freemium com pagamento via Stripe (Plano Básico/Gratuito e Plano Pro/Premium) | —| 
 
 **Restrições conhecidas:** tempo, acesso a dados, ferramentas, infraestrutura, conhecimento técnico ou normas.
 

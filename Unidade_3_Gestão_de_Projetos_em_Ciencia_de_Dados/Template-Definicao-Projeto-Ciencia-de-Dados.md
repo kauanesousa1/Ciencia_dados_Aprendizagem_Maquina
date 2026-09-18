@@ -259,7 +259,7 @@ Defina como a equipe saberá se o projeto alcançou seus objetivos.
 
 | Etapa | Atividades principais | Responsável(is) | Prazo | Dependências |
 |---|---|---|---|---|
-| 1. Definição: 1. Definição| Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classes| Equipe MVC Finance| ⚠ a definir| —|
+| 1. Definição:| Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classes| Equipe MVC Finance| ⚠ a definir| —|
 
 | 2. Obtenção dos dados | | | | |
 | 3. Preparação dos dados | | | | |

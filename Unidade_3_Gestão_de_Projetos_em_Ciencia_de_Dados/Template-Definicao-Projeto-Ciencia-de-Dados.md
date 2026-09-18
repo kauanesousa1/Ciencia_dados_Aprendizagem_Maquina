@@ -96,9 +96,10 @@ ____________________________________________________
 ### 4.2 Partes interessadas
 
 | Parte interessada | Interesse no projeto | Influência | Forma de envolvimento |
-|---|---|---|---|
-| | | Baixa / Média / Alta | | 
 |Usuários finais (Plano Gratuito e Plano Premium)|Controlar finanças pessoais e obter insights sobre os próprios gastos|Alta|Uso diário da plataforma; geração de dados de transações; feedback/avaliações|
+| | | Baixa / Média / Alta | | 
+|Equipe MVC Finance (Isabella, Jhonathan e Kauane)|Concluir o projeto/TCC e evoluir o produto| Alta| |Desenvolvimento, modelagem de dados, documentação e apresentação|
+
 | | | Baixa / Média / Alta | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas| 
 |---|---|---|---|
 | | | Baixa / Média / Alta | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro|

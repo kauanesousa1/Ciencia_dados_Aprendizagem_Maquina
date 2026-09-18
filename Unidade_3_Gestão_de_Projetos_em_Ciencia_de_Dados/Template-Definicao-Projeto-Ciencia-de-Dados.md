@@ -100,7 +100,7 @@ ____________________________________________________
 |---|---|---|---|
 | Usuários finais (Plano Gratuito e Plano Premium)| Controlar finanças pessoais e obter insights sobre os próprios gastos |Alta| Uso diário da plataforma; geração de dados de transações; feedback/avaliações | 
 |---|---|---|---|
-| Equipe MVC Finance (Kauane, Isabella e Jhonathan)| Concluir o projeto/TCC e evoluir o produto| Alta | |Desenvolvimento, modelagem de dados, documentação e apresentação| 
+| Equipe MVC Finance (Isabella, Jhonathan e Kauane)| Concluir o projeto/TCC e evoluir o produto |Alta| Desenvolvimento, modelagem de dados, documentação e apresentação | 
 |---|---|---|---|
 | | | Baixa / Média / Alta | |
 |---|---|---|---|

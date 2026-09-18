@@ -99,11 +99,11 @@ ____________________________________________________
 |---|---|---|---|
 | | | Baixa / Média / Alta | | Usuários finais (Plano Gratuito e Plano Premium)	Controlar finanças pessoais e obter insights sobre os próprios gastos	Alta	Uso diário da plataforma; geração de dados de transações; feedback/avaliações.
 
-| | | Baixa / Média / Alta | | Equipe MVC Finance (Isabella, Jhonathan e Kauane)	Concluir o TCC e evoluir o produto	Alta	Desenvolvimento, modelagem de dados, documentação e apresentação.
+| | | Baixa / Média / Alta | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas| 
 
-  | | | Baixa / Média / Alta | | Gabriel Alves	Avaliação acadêmica do projeto e da metodologia	Média	Orientação, validação de requisitos e correções.
+  | | | Baixa / Média / Alta | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro|
   
-  | | | Baixa / Média / Alta | |  OpenAI (provedora do modelo GPT-4o-mini)	Fornecer o serviço de geração dos relatórios de IA	Média	Integração via API paga por uso (dependência técnica externa).
+  | | | Baixa / Média / Alta | Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro|  
 
 ## 5. Objetivos do projeto
 

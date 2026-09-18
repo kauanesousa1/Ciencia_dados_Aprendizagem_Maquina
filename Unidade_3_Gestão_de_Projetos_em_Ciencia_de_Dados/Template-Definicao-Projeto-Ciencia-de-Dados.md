@@ -55,7 +55,7 @@ Descreva a situação atual, o ambiente em que o problema ocorre e as evidência
 O endividamento das famílias brasileiras permanece elevado: segundo a CNC (2024), a proporção de famílias com contas a vencer recuou apenas de 77,0% para 76,7% entre novembro e dezembro, uma redução pequena diante de um patamar ainda preocupante. O mercado já oferece ferramentas de controle financeiro (planilhas e aplicativos como Mobills, Money Lover e Gestor de Despesas), mas seu uso contínuo é limitado por barreiras funcionais: foco no registro retrospectivo de despesas (pouco planejamento preditivo), necessidade de inserção manual exaustiva de dados, funcionalidades avançadas restritas a versões pagas e ausência de recursos educativos integrados nativamente — o que, segundo o BCB (2023), reduz o potencial de mudança efetiva no comportamento financeiro dos usuários. O problema ocorre, portanto, entre pessoas físicas no Brasil que tentam controlar as próprias finanças por conta própria, sem apoio simultâneo de planejamento e educação financeira.
 ________________________________________________________________________________
 
-________________________________________________________________________________
+
 
 ### 3.2 Problema central
 
@@ -209,24 +209,35 @@ ________________________________________________________________________________
 
 | Dentro do escopo | Fora do escopo |
 |---|---|
-| | |Registro, edição e exclusão de transações financeiras (receita/despesa/investimento)	Integração bancária automática (open finance) — não mencionada no TCC.
+| | |Registro, edição e exclusão de transações financeiras (receita/despesa/investimento),	Integração bancária automática (open finance) — não mencionada no TCC.
 
-| | |Dashboard financeiro com filtro por mês e gráficos de evolução	Aplicativo mobile nativo — a solução é uma plataforma web (SaaS).
-| | |
+| | |Dashboard financeiro com filtro por mês e gráficos de evolução,	Aplicativo mobile nativo — a solução é uma plataforma web (SaaS).
+
+| | | Geração de relatório de Inteligência Artificial (GPT-4o-mini) para usuários do Plano Premium,	Modelos preditivos de Machine Learning desenvolvidos pela própria equipe.
+
+| | | Módulo educacional gamificado (cursos, módulos, lições, conquistas, XP). Análises estatísticas avançadas/painéis de Ciência de Dados além do relatório individual em Markdown.
+
+| | |Modelo de negócio freemium com pagamento via Stripe (Plano Básico/Gratuito e Plano Pro/Premium).
 
 **Restrições conhecidas:** tempo, acesso a dados, ferramentas, infraestrutura, conhecimento técnico ou normas.
 
+Prazo acadêmico do TCC; dependência de custo/disponibilidade da API paga da OpenAI (GPT-4o-mini); equipe reduzida (3 integrantes); infraestrutura em nuvem (Neon DB) sujeita a limites do plano contratado.
 ________________________________________________________________________________
 
 ## 10. Resultados e entregáveis previstos
 
 | Entregável | Descrição | Formato | Responsável | Critério de aceite |
 |---|---|---|---|---|
-| Base tratada | | | | |
-| Análise exploratória | | | | |
-| Visualizações / painel | | | | |
-| Relatório ou apresentação | | | | |
-| Outro | | | | |
+
+| Base tratada | | | | | Base tratada	Banco de dados relacional com as entidades User, Transaction, Course, Module, Lesson etc.	PostgreSQL (Neon) via Prisma ORM	Equipe MVC Finance	Modelo de dados implementado conforme o Diagrama de Classes do TCC.
+
+| Análise exploratória | | | | | Análise exploratória	Extração e formatação das transações do mês em texto estruturado (DATA-VALOR-TIPO-CATEGORIA)	Texto estruturado enviado à API GPT-4o-mini	Equipe MVC Finance	Dados corretamente filtrados por usuário e mês, conforme RN-IA02.
+
+| Visualizações / painel | | | | | Visualizações / painel	Dashboard financeiro com gráficos de evolução e filtro por mês	Interface web (React / Next.js)	Equipe MVC Finance	Dashboard exibindo indicadores consolidados e atualizados por mês.
+
+| Relatório ou apresentação | | | | | Relatório ou apresentação	Relatório de Inteligência Artificial (resumo, análise por categoria, tendências e recomendações)	Markdown, exibido em modal/dashboard	Equipe MVC Finance + API GPT-4o-mini (OpenAI)	Relatório gerado conforme regras RN-IA01 a RN-IA03.
+
+| Outro | | | | | Outro	TCC escrito (documento acadêmico completo)	PDF / Word	Equipe MVC Finance	Aprovação pela banca examinadora
 
 ## 11. Critérios de sucesso
 
@@ -234,17 +245,22 @@ Defina como a equipe saberá se o projeto alcançou seus objetivos.
 
 | Critério | Indicador ou evidência | Meta | Forma de verificação |
 |---|---|---|---|
-| Relevância para o problema | | | |
-| Qualidade dos dados | | | |
-| Qualidade da análise | | | |
-| Utilidade para o público-alvo | | | |
-| Comunicação dos resultados | | | |
+| Relevância para o problema | | | | Relevância para o problema	Uso do relatório de IA pelos usuários do Plano Premium	Adoção recorrente (mensal) do recurso	Registro de geração de relatórios no sistema.
+
+| Qualidade dos dados | | | | Qualidade dos dados	Consistência da categorização das transações registradas	Baixo índice de dados incompletos ou duplicados	Auditoria periódica do banco de dados.
+
+| Qualidade da análise | | | | Qualidade da análise	Coerência entre o relatório de IA e os dados reais do usuário	Relatório reflete corretamente resumo, tendências e recomendações	Validação manual comparando relatório gerado x dados brutos.
+
+| Utilidade para o público-alvo | | | | Utilidade para o público-alvo	Percepção de utilidade do relatório de IA e do módulo educacional	Feedback positivo dos usuários / avaliadores	⚠ Pesquisa de satisfação (não realizada no TCC) e avaliação da banca examinadora.
+
+| Comunicação dos resultados | | | | Comunicação dos resultados	Clareza do TCC, dos protótipos de tela e do dashboard	Aprovação na defesa do TCC	Avaliação da banca examinadora,
 
 ## 12. Plano inicial de trabalho
 
 | Etapa | Atividades principais | Responsável(is) | Prazo | Dependências |
 |---|---|---|---|---|
-| 1. Definição | | | | |
+| 1. Definição: 1. Definição| Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classes| Equipe MVC Finance| ⚠ a definir| —|
+
 | 2. Obtenção dos dados | | | | |
 | 3. Preparação dos dados | | | | |
 | 4. Análise / modelagem | | | | |

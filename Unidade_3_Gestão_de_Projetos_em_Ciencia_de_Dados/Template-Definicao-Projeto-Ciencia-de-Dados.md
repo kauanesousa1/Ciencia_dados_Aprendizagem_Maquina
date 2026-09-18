@@ -116,14 +116,10 @@ Defina de três a cinco objetivos mensuráveis e compatíveis com o prazo do pro
 | Nº | Objetivo específico | Evidência de conclusão |
 |---:|---|---|
 | 1 | Promover a educação financeira do usuário |Módulo educacional (cursos, módulos, lições e conquistas) implementado e disponível no catálogo de cursos | 
-
-| 2 | | | 2	Integrar o módulo educacional ao acompanhamento financeiro, fomentando aprendizado contínuo	Progresso do usuário (UserLessonProgress) e XP/gamificação vinculados ao uso da plataforma.
-
-| 3 | | | 3	Desenvolver uma arquitetura escalável e segura	Autenticação implementada, e banco de dados PostgreSQL/Neon em produção.
-
-| 4 | | | 4	Validar a viabilidade de um modelo de negócio freemium	Planos Gratuito e Premium implementados, com fluxo de upgrade e pagamento (Stripe) funcional.
-
-| 5 | | | 5	Assegurar a segurança e a privacidade das informações financeiras dos usuários	Isolamento de dados por usuário (usuarioId) e verificação de plano Premium no servidor antes de qualquer chamada à API da OpenAI.
+| 2 | Integrar o módulo educacional ao acompanhamento financeiro, fomentando aprendizado contínuo| Progresso do usuário (UserLessonProgress) e XP/gamificação vinculados ao uso da plataforma | 
+| 3 |Desenvolver uma arquitetura escalável e segura |Autenticação implementada e banco de dados PostgreSQL/Neon em produção | 
+| 4 | Validar a viabilidade de um modelo de negócio freemium|Planos Gratuito e Premium implementados, com fluxo de upgrade e pagamento (Stripe) funcional | 
+| 5 |	Assegurar a segurança e a privacidade das informações financeiras dos usuários | Isolamento de dados por usuário (usuarioId) e verificação de plano Premium no servidor antes de qualquer chamada à API da OpenAI| 
 
 ### 5.3 Verificação dos objetivos
 

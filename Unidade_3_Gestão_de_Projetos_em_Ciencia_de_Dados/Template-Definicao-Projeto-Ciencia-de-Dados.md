@@ -73,7 +73,7 @@ ____________________________________________________
 
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
-| 1. Proporção de famílias com contas a vencer caiu de 77,0% para 76,7% (nov.→dez.) |CNC (2024) — Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC) | | O endividamento das famílias brasileiras permanece elevado apesar de leve melhora | Dado agregado nacional; não é segmentado pelo perfil específico dos usuários da plataforma|
+| 1. Proporção de famílias com contas a vencer caiu de 77,0% para 76,7% (nov.→dez.) |CNC (2024) — Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC) |O endividamento das famílias brasileiras permanece elevado apesar de leve melhora | Dado agregado nacional; não é segmentado pelo perfil específico dos usuários da plataforma| |
 
 | 2. | | | |Baixa adesão a ferramentas tradicionais e falta de educação financeira integrada	Banco Central do Brasil (2023) — Relatório de Economia Bancária; BCB (2013) — Caderno de Educação Financeira	Instrumentos de controle financeiro isolados têm pouco efeito sem letramento financeiro	Fonte institucional; não mede diretamente o comportamento dos futuros usuários do MVC Finance
 

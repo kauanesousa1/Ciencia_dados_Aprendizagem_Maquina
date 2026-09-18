@@ -205,16 +205,12 @@ ________________________________________________________________________________
 
 | Entregável | Descrição | Formato | Responsável | Critério de aceite |
 |---|---|---|---|---|
+| Base tratada | 	Banco de dados relacional com as entidades User, Transaction, Course, Module, Lesson etc.| entidades User, Transaction, Course, Module, Lesson etc.	PostgreSQL (Neon) via Prisma ORM| Equipe MVC Finance| Modelo de dados implementado conforme o Diagrama de Classes do TCC|
+| Análise exploratória |Extração e formatação das transações do mês em texto estruturado (DATA-VALOR-TIPO-CATEGORIA) |Texto estruturado enviado à API GPT-4o-mini | Equipe MVC Finance|Dados corretamente filtrados por usuário e mês, conforme RN-IA02 | 
+| Visualizações / painel |Dashboard financeiro com gráficos de evolução e filtro por mês | Interface web (React / Next.js)| Equipe MVC Finance|	Dashboard exibindo indicadores consolidados e atualizados por mês | 
+| Relatório ou apresentação | Relatório de Inteligência Artificial (resumo, análise por categoria, tendências e recomendações)| Markdown, exibido em modal/dashboard| Equipe MVC Finance + API GPT-4o-mini (OpenAI)|Relatório gerado conforme regras RN-IA01 a RN-IA03 | 
 
-| Base tratada | | | | | Base tratada	Banco de dados relacional com as entidades User, Transaction, Course, Module, Lesson etc.	PostgreSQL (Neon) via Prisma ORM	Equipe MVC Finance	Modelo de dados implementado conforme o Diagrama de Classes do TCC.
-
-| Análise exploratória | | | | | Análise exploratória	Extração e formatação das transações do mês em texto estruturado (DATA-VALOR-TIPO-CATEGORIA)	Texto estruturado enviado à API GPT-4o-mini	Equipe MVC Finance	Dados corretamente filtrados por usuário e mês, conforme RN-IA02.
-
-| Visualizações / painel | | | | | Visualizações / painel	Dashboard financeiro com gráficos de evolução e filtro por mês	Interface web (React / Next.js)	Equipe MVC Finance	Dashboard exibindo indicadores consolidados e atualizados por mês.
-
-| Relatório ou apresentação | | | | | Relatório ou apresentação	Relatório de Inteligência Artificial (resumo, análise por categoria, tendências e recomendações)	Markdown, exibido em modal/dashboard	Equipe MVC Finance + API GPT-4o-mini (OpenAI)	Relatório gerado conforme regras RN-IA01 a RN-IA03.
-
-| Outro | | | | | Outro	TCC escrito (documento acadêmico completo)	PDF / Word	Equipe MVC Finance	Aprovação pela banca examinadora
+| Outro |TCC escrito (documento acadêmico completo) |PDF / Word |	Equipe MVC Finance |Aprovação pela banca examinadora | 
 
 ## 11. Critérios de sucesso
 
@@ -222,45 +218,39 @@ Defina como a equipe saberá se o projeto alcançou seus objetivos.
 
 | Critério | Indicador ou evidência | Meta | Forma de verificação |
 |---|---|---|---|
-| Relevância para o problema | | | | Relevância para o problema	Uso do relatório de IA pelos usuários do Plano Premium	Adoção recorrente (mensal) do recurso	Registro de geração de relatórios no sistema.
-
-| Qualidade dos dados | | | | Qualidade dos dados	Consistência da categorização das transações registradas	Baixo índice de dados incompletos ou duplicados	Auditoria periódica do banco de dados.
-
-| Qualidade da análise | | | | Qualidade da análise	Coerência entre o relatório de IA e os dados reais do usuário	Relatório reflete corretamente resumo, tendências e recomendações	Validação manual comparando relatório gerado x dados brutos.
-
-| Utilidade para o público-alvo | | | | Utilidade para o público-alvo	Percepção de utilidade do relatório de IA e do módulo educacional	Feedback positivo dos usuários / avaliadores	⚠ Pesquisa de satisfação (não realizada no TCC) e avaliação da banca examinadora.
-
-| Comunicação dos resultados | | | | Comunicação dos resultados	Clareza do TCC, dos protótipos de tela e do dashboard	Aprovação na defesa do TCC	Avaliação da banca examinadora,
+| Relevância para o problema | Uso do relatório de IA pelos usuários do Plano Premium| Adoção recorrente (mensal) do recurso | Registro de geração de relatórios no sistema| 
+Qualidade dos dados |Consistência da categorização das transações registradas | Baixo índice de dados incompletos ou duplicados| Auditoria periódica do banco de dados| 
+| Qualidade da análise |Coerência entre o relatório de IA e os dados reais do usuário | Relatório reflete corretamente resumo, tendências e recomendações| Validação manual comparando relatório gerado x dados brutos| 
+| Utilidade para o público-alvo | Percepção de utilidade do relatório de IA e do módulo educacional| Feedback positivo dos usuários / avaliadores| Pesquisa de satisfação (não realizada ainda) e avaliação da banca examinadora|
+| Comunicação dos resultados | Clareza do TCC, dos protótipos de tela e do dashboard| Aprovação na defesa do TCC| Avaliação da banca examinadora | 
 
 ## 12. Plano inicial de trabalho
 
 | Etapa | Atividades principais | Responsável(is) | Prazo | Dependências |
 |---|---|---|---|---|
-| 1. Definição:| Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classes| Equipe MVC Finance| ⚠ a definir| —|
-
-| 2. Obtenção dos dados Implementação de cadastro/autenticação e registro de transações pelos usuários ||Equipe MVC Finance |⚠ a definir | Depende do módulo de autenticação|
-
-| 3. Preparação dos dados Formatação das transações (DATA-VALOR-TIPO-CATEGORIA) para envio à API| Equipe MVC Finance| a definir| Depende do modelo de dados (entidade Transaction)| |
-| 4. Análise / modelagem | | | | |
-| 5. Validação | | | | |
-| 6. Comunicação | | | | |
+| 1. Definição | Levantamento de requisitos (RF01–RFxx), casos de uso e diagrama de classess| Equipe MVC Finance| a definir| —|
+| 2. Obtenção dos dados | Implementação de cadastro/autenticação e registro de transações pelos usuários| Equipe MVC Finance| a definir| Depende da configuração da OPENAI_API_KEY|
+| 3. Preparação dos dados | Implementação de cadastro/autenticação e registro de transações pelos usuários| Equipe MVC Finance| a definir| Depende da configuração da OPENAI_API_KEY|
+| 4. Análise / modelagem | Integração com o GPT-4o-mini (OpenAI) para geração do relatório de IA (UC-17)| Equipe MVC Finance| a definir| Depende da configuração da OPENAI_API_KEY |
+| 5. Validação | 	Testes do fluxo do relatório de IA, incluindo o fluxo alternativo sem API key configurada e a verificação de plano Premium| Equipe MVC Finance | a definir|Depende de ambiente de testes configurado |
+| 6. Comunicação |Elaboração da documentação, protótipos de tela e apresentação do projeto |Equipe MVC Finance | a definir| Depende da aprovação do professor/orientação|
 
 ## 13. Riscos do projeto
 
 | Risco | Probabilidade | Impacto | Estratégia de resposta | Responsável |
 |---|---|---|---|---|
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
-| | Baixa / Média / Alta | Baixo / Médio / Alto | | |
+|Indisponibilidade ou custo elevado da API OpenAI (GPT-4o-mini)	|Média|Alto|Manter o fluxo alternativo já previsto (UC-17) para quando a OPENAI_API_KEY não estiver configurada; monitorar custo por chamada|Equipe MVC Finance|
+|Não conformidade com a LGPD no tratamento de dados financeiros sensíveis	|Baixa|	Alto|Reforçar isolamento de dados por usuário, criptografia AES-256 e revisão da política de privacidade|Equipe MVC Finance|
+|Baixa adesão de usuários ao Plano Premium, comprometendo a validação do modelo freemium	|Média|	Médio|Ajustar o limite do Plano Gratuito (atualmente 10 operações/mês) e comunicar melhor o valor do relatório de IA|Equipe MVC Finance|
 
 ## 14. Organização da equipe
 
 | Integrante | Papel principal | Responsabilidades | Apoio necessário |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Integrante| Kauane Braga dos Santos Silva de Sousa|Documentação (Diagrama de classes/DadoseIA)|Elaborar e manter o diagrama de classes do sistema. documentar aspectos de dados e IA relacionados à modelagem do projeto; |Acesso ao modelo de dados alimentando com quem desenvolve back-end para manter o diagrama de classes atualizado|
+| Integrante| Isabella Ana Dutra de Sousa|Elabora e manter a documentação dos casos de uso do sistema. documentar aspectos relacionados a dados e IA (fortes de dados, modelos utilizados, fluxo de dados | Acesso aos requisitos do projeto e alinhando com quem desenvolve a parte de dados/IA para documentar corretamente|
+| Integrante| Jhonathan de Moura Santos|Implmentar as telas lógica de interface (front-end): desenvolve a lógica de negócio, APIs e integrações no servidor (back end); apoiar na formatação e análise dos dados usados no relatório de IA | Acesso ao modelo de dados e alinhamentos com quem desenvolve back-end para manter o diagrama de classes atualizado|
+
 
 ## 15. Validação da definição do projeto
 
@@ -280,8 +270,8 @@ Antes da entrega, confirme:
 
 | Responsável | Validação / observação | Data |
 |---|---|---|
-| Representante da equipe Representante da equipe| a preencher pela equipe no momento da entrega| |a definir
-| Professor(a) / orientador(a) Gabriel Alves| a preencher| a definir |
+| Representante da equipe|a preencher pela equipe no momento da entrega|A definir
+| Professor(a) / orientador(a)| Gabriel Alves|A definir
 
 ### Ajustes solicitados após a apresentação inicial
 

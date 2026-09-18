@@ -74,9 +74,7 @@ ____________________________________________________
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
 | 1. Proporção de famílias com contas a vencer caiu de 77,0% para 76,7% (nov.→dez.) |CNC (2024) — Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC) |O endividamento das famílias brasileiras permanece elevado apesar de leve melhora | Dado agregado nacional; não é segmentado pelo perfil específico dos usuários da plataforma| |
-|---|---|---|---|
 | 2. Baixa adesão a ferramentas tradicionais e falta de educação financeira integrada |Banco Central do Brasil (2023) — Relatório de Economia Bancária; BCB (2013) — Caderno de Educação Financeira |Instrumentos de controle financeiro isolados têm pouco efeito sem letramento financeiro | Fonte institucional; não mede diretamente o comportamento dos futuros usuários do MVC Finance| |
-|---|---|---|---|
 | 3.Análise comparativa entre MVC Finance, Mobills, Money Lover e Gestor de Despesas |Google Play Store / análise dos autores do TCC (2026) |Concorrentes oferecem educação financeira introdutória (artigos/dicas) e recursos avançados só em planos pagos | Análise qualitativa feita pelos próprios autores, sem dados quantitativos de uso real| |
 
 ## 4. Público-alvo e partes interessadas
@@ -86,11 +84,8 @@ ____________________________________________________
 | Aspecto | Descrição |
 |---|---|
 | Quem são os usuários ou beneficiários? | Pessoas físicas no Brasil que buscam controlar receitas e despesas pessoais, incluindo usuários endividados ou com baixo letramento financeiro.| 
-|---|---|
 | Quais necessidades possuem? | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas.| 
-|---|---|
 | Como são afetados pelo problema? | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro.| 
-|---|---|
 | Que decisão ou ação poderão tomar com os resultados? |  Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro.|
 
 

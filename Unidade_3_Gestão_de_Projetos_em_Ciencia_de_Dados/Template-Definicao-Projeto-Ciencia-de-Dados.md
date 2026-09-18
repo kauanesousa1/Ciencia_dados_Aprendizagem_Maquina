@@ -308,7 +308,6 @@ Antes da entrega, confirme:
 
 ### Ajustes solicitados após a apresentação inicial
 
-________________________________________________________________________________
-
+A preencher pela equipe após a apresentação/validação com o professor Gabriel Alves.
 ________________________________________________________________________________
 

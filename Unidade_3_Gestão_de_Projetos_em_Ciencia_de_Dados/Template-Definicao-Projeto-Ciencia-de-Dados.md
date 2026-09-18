@@ -137,7 +137,7 @@ As perguntas de negócio orientam a coleta, a análise e a comunicação dos res
 
 | Nº | Pergunta de negócio | Decisão apoiada | Dados necessários | Análise ou indicador possível |
 |---:|---|---|---|---|
-| 1 | | | | |1	Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário?	Priorizar quais categorias destacar no relatório de IA e em alertas	Transações do mês (valor, categoria, tipo, data)	Agregação e ranking de despesas por categoria.
+| 1 |Quais categorias de despesa mais contribuem para o desequilíbrio financeiro mensal do usuário? | categorias destacar no relatório de IA e em alertas	Transações do mês (valor, categoria, tipo, data)| |Agregação e ranking de despesas por categoria |
 
 | 2 | | | | |2	O relatório gerado pela IA a partir das transações do mês reflete de forma fiel as tendências reais de gasto do usuário?	Ajustar o prompt e o formato de dados enviados ao GPT-4o-mini (RN-IA03)	Transações formatadas como DATA-VALOR-TIPO-CATEGORIA do mês selecionado	Comparação entre o relatório gerado e uma análise estatística direta das mesmas transações.
 

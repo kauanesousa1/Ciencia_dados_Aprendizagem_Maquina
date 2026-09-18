@@ -87,11 +87,11 @@ ____________________________________________________
 |---|---|
 | Quem são os usuários ou beneficiários? | Pessoas físicas no Brasil que buscam controlar receitas e despesas pessoais, incluindo usuários endividados ou com baixo letramento financeiro | 
 
-| Quais necessidades possuem? | | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas.
+| Quais necessidades possuem? | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas.| 
 
-| Como são afetados pelo problema? | | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro.
+| Como são afetados pelo problema? | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro.| 
 
-| Que decisão ou ação poderão tomar com os resultados? | | Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro.
+| Que decisão ou ação poderão tomar com os resultados? |  Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro.|
 
 ### 4.2 Partes interessadas
 
@@ -101,9 +101,9 @@ ____________________________________________________
 
 | | | Baixa / Média / Alta | Registrar transações de forma simples, entender o próprio padrão de gastos, receber orientação/educação financeira e obter recomendações personalizadas| 
 
-  | | | Baixa / Média / Alta | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro|
+| | | Baixa / Média / Alta | Dependem de planilhas ou apps limitados a registro retrospectivo, com inserção manual exaustiva e sem apoio educativo integrado, o que dificulta a mudança de comportamento financeiro|
   
-  | | | Baixa / Média / Alta | Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro|  
+| | | Baixa / Média / Alta | Ajustar hábitos de consumo por categoria, decidir migrar do Plano Gratuito para o Plano Premium (relatórios de IA ilimitados) e engajar-se no módulo educacional para melhorar o letramento financeiro|  
 
 ## 5. Objetivos do projeto
 

@@ -52,7 +52,7 @@ Descreva a situação atual, o ambiente em que o problema ocorre e as evidência
 
 **Preenchimento:**
 
-O endividamento das famílias brasileiras permanece elevado: segundo a CNC (2024), a proporção de famílias com contas a vencer recuou apenas de 77,0% para 76,7% entre novembro e dezembro, uma redução pequena diante de um patamar ainda preocupante. O mercado já oferece ferramentas de controle financeiro (planilhas e aplicativos como Mobills, Money Lover e Gestor de Despesas), mas seu uso contínuo é limitado por barreiras funcionais: foco no registro retrospectivo de despesas (pouco planejamento preditivo), necessidade de inserção manual exaustiva de dados, funcionalidades avançadas restritas a versões pagas e ausência de recursos educativos integrados nativamente — o que, segundo o BCB (2023), reduz o potencial de mudança efetiva no comportamento financeiro dos usuários. O problema ocorre, portanto, entre pessoas físicas no Brasil que tentam controlar as próprias finanças por conta própria, sem apoio simultâneo de planejamento e educação financeira.
+O endividamento das famílias brasileiras permanece elevado: segundo a CNC (2024), a proporção de famílias com contas a vencer recuou apenas de 77,0% para 76,7% entre novembro e dezembro, uma redução pequena diante de um patamar ainda preocupante. O mercado já oferece ferramentas de controle financeiro (planilhas e aplicativos como Mobills, Money Lover e Gestor de Despesas), mas seu uso contínuo é limitado por barreiras funcionais: foco no registro retrospectivo de despesas (pouco planejamento preditivo), necessidade de inserção manual exaustiva de dados, funcionalidades avançadas restritas a versões pagas e ausência de recursos educativos integrados nativamente  o que, segundo o BCB (2023), reduz o potencial de mudança efetiva no comportamento financeiro dos usuários. O problema ocorre, portanto, entre pessoas físicas no Brasil que tentam controlar as próprias finanças por conta própria, sem apoio simultâneo de planejamento e educação financeira.
 ________________________________________________________________________________
 
 
@@ -73,7 +73,7 @@ ____________________________________________________
 
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
-| 1. | | | |Proporção de famílias com contas a vencer caiu de 77,0% para 76,7% (nov.→dez.)	CNC (2024) — Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC)	O endividamento das famílias brasileiras permanece elevado apesar de leve melhora	Dado agregado nacional; não é segmentado pelo perfil específico dos usuários da plataforma
+| 1. |Proporção de famílias com contas a vencer caiu de 77,0% para 76,7% (nov.→dez.) |CNC (2024) — Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC) | O endividamento das famílias brasileiras permanece elevado apesar de leve melhora | Dado agregado nacional; não é segmentado pelo perfil específico dos usuários da plataforma|
 
 | 2. | | | |Baixa adesão a ferramentas tradicionais e falta de educação financeira integrada	Banco Central do Brasil (2023) — Relatório de Economia Bancária; BCB (2013) — Caderno de Educação Financeira	Instrumentos de controle financeiro isolados têm pouco efeito sem letramento financeiro	Fonte institucional; não mede diretamente o comportamento dos futuros usuários do MVC Finance
 

@@ -9,7 +9,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 - Estudante ou equipe: **Kauane Braga dos Santos Silva de Sousa e Isabella Ana Dutra de Sousa**
 - Turma: **Sistemas de Informação — Noturno — Quarta-feira**
-- Data de realização: **16/10/2026**
+- Data de realização: **20/10/2026**
 - Integrantes e contribuições: **Kauane: notebook e experimento. Isabella: formulação do problema, limites e privacidade. Ambas revisaram tudo.**
 
 ## 1. O sistema

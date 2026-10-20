@@ -9,7 +9,7 @@ Ciência de Dados e Aprendizado de Máquina · Sistemas de Informação · 2026.
 
 - Estudante ou equipe: **Kauane Braga dos Santos Silva de Sousa e Isabella Ana Dutra de Sousa**
 - Turma: **Sistemas de Informação — Noturno — Quarta-feira**
-- Data de realização: **16/10/2026**
+- Data de realização: **20/10/2026**
 - Integrantes e contribuições (se em equipe): **Kauane — execução do notebook, experimentos e experimento do MVC Finance; Isabella — PBLs, revisão das respostas e conferência dos links e arquivos. Ambas revisaram o conteúdo completo.**
 
 ## Situação-problema
